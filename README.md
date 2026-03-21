@@ -232,10 +232,15 @@ ROV_Reports/
 
 
 
-<br>
+### Sample AI Analysis
 
-<img src="examples/job_Video_FHD/frame_00009.jpg" width="600">
+<p align="center">
+  <img src="examples/job_Video_FHD/frame_00009.jpg" width="700">
+  <br>
+  <em>Motion + feature detection from ROV inspection</em>
+</p>
 ```
+
 Frame: frame_00009.jpg (Flagged Frame)
 ================================
 Condition: GOOD
@@ -246,6 +251,7 @@ This underwater image, captured at 00:00:40, shows a sandy seabed densely popula
 Recommendation: 
 - Routine inspection - no concerns
 - Continue standard monitoring protocol
+  
 ```
 
 ---
