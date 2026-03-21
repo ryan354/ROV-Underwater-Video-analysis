@@ -231,49 +231,37 @@ ROV_Reports/
 
 
 
+
 ### Sample AI Analysis
 
 <p align="center">
   <img src="examples/job_Video_FHD/frame_00010.jpg" style="width:100%; max-width:800px; height:auto;">
   <br>
-  <em>Detected: Sea pen </em>
+  <em>sea pen, brittle star</em>
 </p>
 
 ---
 
-## 📍 Frame Information
-- **Frame ID:** `frame_00009.jpg` *(Flagged Frame)*
-- **Condition:** ✅ GOOD
+**Frame:** `frame_00009.jpg` (Flagged)  
+**Condition:** GOOD  
 
----
+**Objects:** sea pen, brittle star  
 
-## 🔎 Detected Objects
-- Sea pen  
-- Brittle star  
-
----
-
-## 🧠 Detailed Analysis
+**Detail:**  
 A large, creamy-colored sea pen stalk is prominently featured, covered in numerous small white polyps resembling tiny starbursts. Several dark, slender brittle stars are visible on the sandy seabed and along the edges of the frame, with their arms extended.
 
----
+**Environment:**  
+Seabed: sandy with shell fragments and sparse red algae  
+Depth (est.): 5–10 m  
+Water: good light penetration and visibility  
+Clarity: clear  
 
-## 🌊 Environmental Conditions
-- **Seabed:** Sandy with shell fragments and sparse red algae  
-- **Depth (Estimated):** 5–10 m  
-- **Water:** Good light penetration and visibility  
-- **Clarity:** Clear  
+**Assessment:**  
+Urgency: low  
+Remarks: typical benthic marine life observed, no immediate concerns  
 
----
-
-## ⚠️ Assessment
-- **Urgency:** Low  
-- **Remarks:** Observation of typical benthic marine life. No immediate concerns or targets identified.
-
----
-
-## 🧾 Summary
-A large sea pen with numerous polyps, surrounded by brittle stars on a sandy seabed
+**Summary:**  
+Sea pen with surrounding brittle stars on a stable sandy seabed.
 
 
 ## 🔧 Troubleshooting
