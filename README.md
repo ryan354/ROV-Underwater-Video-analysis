@@ -24,7 +24,7 @@ This tool automates ROV (Remotely Operated Vehicle) underwater video inspection:
 | **AI Vision** | Uses Gemini/Claude for frame analysis |
 | **PDF Reports** | Generates professional inspection reports |
 | **Telegram Bot** | Sends notifications and reports for approval |
-| **Motion Detection** | Skips boring static frames |
+| **Motion & Feature Detection** | OpenCV flags important frames (motion, edges, features) |
 
 ---
 
@@ -38,7 +38,7 @@ ROV Video File
 │  rov_watcher.py │  ← Monitors folder for new videos
 └────────┬────────┘
          │
-         ▼ Extracts frames every N seconds
+         ▼ OpenCV: Extracts frames + Flags important ones (motion, edges, features)
 ┌─────────────────┐
 │  frames/        │  ← Saved to D:\ROV_Jobs\job_name\frames\
 └────────┬────────┘
