@@ -109,9 +109,9 @@ That's it! 🎉
 # ===========================================
 # REQUIRED - AI & Telegram
 # ===========================================
-OPENROUTER_API_KEY=sk-or-v1-xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+OPENROUTER_API_KEY=xxxx
 TELEGRAM_BOT_TOKEN=123456789:ABCdefGHIjklMNOpqrsTUVwxyz
-TELEGRAM_CHAT_ID=8663570805
+TELEGRAM_CHAT_ID=xxxx
 
 # ===========================================
 # FOLDERS - Adjust to your setup
@@ -230,7 +230,7 @@ ROV_Reports/
 
 ### Sample AI Analysis
 
-![Sample ROV Frame](examples/frames/frame_00001.jpg)
+![Sample ROV Frame](examples/job_Video_FHD/frame_00001.jpg)
 
 ```
 Frame: frame_00001.jpg (00:00:00)
