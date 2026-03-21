@@ -28,49 +28,47 @@ This tool automates ROV (Remotely Operated Vehicle) underwater video inspection:
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ How It Works
 
 ```
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│  ROV Camera     │    │  This Tool       │    │  AI Service     │
-│  Records Video  │───▶│  1. Watch        │───▶│  (OpenRouter)   │
-│                 │    │  2. Extract      │    │  Gemini/Claude  │
-│  D:\ROV_Videos  │    │  3. Analyze      │    │                 │
-└─────────────────┘    └──────────────────┘    └─────────────────┘
-                               │
-                               ▼
-                        ┌──────────────────┐
-                        │  Output          │
-                        │  • D:\ROV_Jobs   │
-                        │  • PDF Report    │
-                        │  • Telegram      │
-                        └──────────────────┘
+ROV Video File
+      │
+      ▼
+┌─────────────────┐
+│  rov_watcher.py │  ← Monitors folder for new videos
+└────────┬────────┘
+         │
+         ▼ Extracts frames every N seconds
+┌─────────────────┐
+│  frames/        │  ← Saved to D:\ROV_Jobs\job_name\frames\
+└────────┬────────┘
+         │
+         ▼ AI analyzes each frame
+┌─────────────────┐
+│  rov_analyzer.py│  ← Sends to Gemini vision API
+└────────┬────────┘
+         │
+         ▼ Generates report
+┌─────────────────┐
+│  PDF Report     │  ← Saved to D:\ROV_Reports\
+└────────┬────────┘
+         │
+         ▼ Notifies you
+┌─────────────────┐
+│  Telegram Bot   │  ← Sends notification + PDF
+└─────────────────┘
 ```
+
+### Two Modes
+
+| Mode | File | What it does |
+|------|------|--------------|
+| **Auto** | `rov_watcher.py` | Watches folder 24/7, auto-detects new videos |
+| **Manual** | `rov_analyzer.py` | Analyze specific job folder on demand |
 
 ---
 
 ## ⚡ Quick Start
-
-### Prerequisites
-
-- Python 3.8+
-- OpenRouter API key (free tier available)
-- Telegram Bot Token (optional)
-
-### 5-Minute Setup
-
-```bash
-# 1. Clone the repo
-git clone https://github.com/yourusername/rov-ai-analyzer.git
-cd rov-ai-analyzer
-
-# 2. Create virtual environment
-python -m venv venv
-
-# Windows
-venv\Scripts\activate
-# Linux/Mac
-source venv/bin/activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
