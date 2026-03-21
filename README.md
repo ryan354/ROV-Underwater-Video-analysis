@@ -228,7 +228,6 @@ ROV_Reports/
 └── 20260115_143022_sample_report.pdf  # Final report
 ```
 
-### Sample AI Analysis
 
 
 
@@ -239,7 +238,7 @@ ROV_Reports/
   <br>
   <em>Motion + feature detection from ROV inspection</em>
 </p>
-```
+
 
 Frame: frame_00009.jpg (Flagged Frame)
 ================================
