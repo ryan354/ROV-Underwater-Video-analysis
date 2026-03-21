@@ -234,9 +234,9 @@ ROV_Reports/
 ### Sample AI Analysis
 
 <p align="center">
-  <img src="examples/job_Video_FHD/frame_00010.jpg" width="700">
+  <img src="examples/job_Video_FHD/frame_00010.jpg" width="900">
   <br>
-  <em>Motion + feature detection from ROV inspection</em>
+  <em>sea pen, brittle star</em>
 </p>
 
 
@@ -244,13 +244,17 @@ Frame: frame_00009.jpg (Flagged Frame)
 ================================
 Condition: GOOD
 
-Analysis:
-This underwater image, captured at 00:00:40, shows a sandy seabed densely populated with dark brittle stars. Several tall, pale sea pens with delicate polyp structures rise from the sand. The water has a clear, blue tint indicating good visibility. No obvious signs of damage, corrosion, or artificial objects detected. The natural marine ecosystem appears healthy.
-
-Recommendation: 
-- Routine inspection - no concerns
-- Continue standard monitoring protocol
-  
+Objects: sea pen, brittle star
+Detail: A large, creamy-colored sea pen stalk is prominently featured, covered in
+numerous small, white polyps that resemble tiny starbursts. Several dark,
+slender brittle stars are visible on the sandy seabed in the background and
+along the edges of the frame, with their arms extended.
+Seabed: sandy with shell fragments and sparse red algae  |  Depth est: 5-10m based on
+Water: light penetration and visibility
+Visibility: good  |  Clarity: clear
+Urgency: Observation of typical benthic marine life, no immediate concerns or targets
+identified.
+  Summary: A large sea pen with numerous polyps, surrounded by brittle stars on a sandy seabed
 ```
 
 ---
