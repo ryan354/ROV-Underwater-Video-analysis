@@ -230,11 +230,11 @@ ROV_Reports/
 
 ### Sample AI Analysis
 
-![Flagged ROV Frame](examples/job_Video_FHD/frame_00004.jpg)
+![Flagged ROV Frame](examples/job_Video_FHD/frame_00009.jpg)
 
 ```
-Frame: frame_00004.jpg (00:00:40) - Flagged Frame
-=================================================
+Frame: frame_00009.jpg (Flagged Frame)
+================================
 Condition: GOOD
 
 Analysis:

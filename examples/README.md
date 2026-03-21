@@ -10,7 +10,7 @@ This folder contains real example outputs from the ROV AI Analyzer.
 
 | File | Description |
 |------|-------------|
-| `frame_00004.jpg` | **Flagged frame** - AI selected this as important |
+| `frame_00009.jpg` | **Flagged frame** - AI selected this as important |
 | `frame_00001.jpg` | Sample extracted frame (start) |
 | `frame_00010.jpg` | Sample extracted frame (middle) |
 | `frame_00020.jpg` | Sample extracted frame (end) |
