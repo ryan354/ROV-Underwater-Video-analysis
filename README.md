@@ -233,22 +233,16 @@ ROV_Reports/
 ![Flagged ROV Frame](examples/job_Video_FHD/frame_00004.jpg)
 
 ```
-Frame: frame_00004.jpg (Flagged - Important)
-================================
-Condition: NEEDS ATTENTION
+Frame: frame_00004.jpg (00:00:40) - Flagged Frame
+=================================================
+Condition: GOOD
 
 Analysis:
-- Underwater pipeline section visible
-- Moderate turbidity - reduced visibility (~4-5m)
-- Metal support structure with visible marine growth
-- Minor corrosion spot detected on pipe joint (center-right)
-- Bolt/weld inspection point - appears intact
-- No visible cracks or structural damage
+This underwater image, captured at 00:00:40, shows a sandy seabed densely populated with dark brittle stars. Several tall, pale sea pens with delicate polyp structures rise from the sand. The water has a clear, blue tint indicating good visibility. No obvious signs of damage, corrosion, or artificial objects detected. The natural marine ecosystem appears healthy.
 
 Recommendation: 
-- Monitor corrosion spot on next inspection
-- Consider cleaning if marine growth increases
-- Structure appears functional
+- Routine inspection - no concerns
+- Continue standard monitoring protocol
 ```
 
 ---
