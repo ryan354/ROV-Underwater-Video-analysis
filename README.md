@@ -234,7 +234,7 @@ ROV_Reports/
 ### Sample AI Analysis
 
 <p align="center">
-  <img src="examples/job_Video_FHD/frame_00009.jpg" width="700">
+  <img src="examples/job_Video_FHD/frame_00010.jpg" width="700">
   <br>
   <em>Motion + feature detection from ROV inspection</em>
 </p>
