@@ -234,30 +234,47 @@ ROV_Reports/
 ### Sample AI Analysis
 
 <p align="center">
-  <img src="examples/job_Video_FHD/frame_00010.jpg" width="900">
+  <img src="examples/job_Video_FHD/frame_00010.jpg" style="width:100%; max-width:800px; height:auto;">
   <br>
-  <em>sea pen, brittle star</em>
+  <em>Detected: Sea pen & brittle stars</em>
 </p>
 
+---
 
-Frame: frame_00009.jpg (Flagged Frame)
-================================
-Condition: GOOD
-
-Objects: sea pen, brittle star
-Detail: A large, creamy-colored sea pen stalk is prominently featured, covered in
-numerous small, white polyps that resemble tiny starbursts. Several dark,
-slender brittle stars are visible on the sandy seabed in the background and
-along the edges of the frame, with their arms extended.
-Seabed: sandy with shell fragments and sparse red algae  |  Depth est: 5-10m based on
-Water: light penetration and visibility
-Visibility: good  |  Clarity: clear
-Urgency: Observation of typical benthic marine life, no immediate concerns or targets
-identified.
-  Summary: A large sea pen with numerous polyps, surrounded by brittle stars on a sandy seabed
-```
+#### 📍 Frame Information
+- **Frame ID:** `frame_00009.jpg` *(Flagged Frame)*
+- **Condition:** ✅ GOOD
 
 ---
+
+#### 🔎 Detected Objects
+- Sea pen  
+- Brittle star  
+
+---
+
+#### 🧠 Detailed Analysis
+A large, creamy-colored sea pen stalk is prominently featured, covered in numerous small white polyps resembling tiny starbursts. Several dark, slender brittle stars are visible on the sandy seabed and along the edges of the frame, with their arms extended.
+
+---
+
+#### 🌊 Environmental Conditions
+- **Seabed:** Sandy with shell fragments and sparse red algae  
+- **Depth (Estimated):** 5–10 m  
+- **Water:** Good light penetration and visibility  
+- **Clarity:** Clear  
+
+---
+
+#### ⚠️ Assessment
+- **Urgency:** Low  
+- **Remarks:** Observation of typical benthic marine life. No immediate concerns or targets identified.
+
+---
+
+#### 🧾 Summary
+A large sea pen with numerous polyps, surrounded by brittle stars on a sandy seabed.
+
 
 ## 🔧 Troubleshooting
 
