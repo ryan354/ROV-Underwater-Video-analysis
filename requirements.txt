@@ -1,0 +1,5 @@
+requests
+fpdf2
+opencv-python
+numpy
+python-dotenv

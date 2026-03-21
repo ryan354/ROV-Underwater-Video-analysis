@@ -1,0 +1,80 @@
+================================
+ROV AI Analysis Report
+================================
+Job ID: sample_job_001
+Generated: 2026-01-15 10:35:00
+Model: google/gemini-2.5-flash-lite
+
+================================
+Frame 1: frame_00001.jpg
+Timestamp: 00:00:00
+================================
+
+Condition: ACCEPTABLE
+
+Analysis:
+- Clear underwater visibility
+- Metal pipeline structure visible in center
+- No corrosion or damage spots detected
+- Light marine growth on pipe surface (~15%)
+- Small fish observed in background
+
+Recommendation: Routine inspection - no action required
+
+================================
+Frame 2: frame_00002.jpg
+Timestamp: 00:00:10
+================================
+
+Condition: ACCEPTABLE
+
+Analysis:
+- Underwater pipeline continues
+- Good visibility conditions
+- No structural anomalies detected
+- Minor sediment disturbance from ROV movement
+
+Recommendation: Continue standard monitoring
+
+================================
+Frame 3: frame_00003.jpg (SKIPPED - Too Dark)
+================================
+
+================================
+Frame 4: frame_00004.jpg
+Timestamp: 00:00:30
+================================
+
+Condition: NEEDS ATTENTION
+
+Analysis:
+- Valve assembly visible
+- Possible corrosion spots on valve body
+- Recommend close-up inspection on next dive
+- Connection points appear secure
+
+Recommendation: Schedule follow-up inspection for valve assembly
+
+================================
+Frame 5: frame_00005.jpg
+Timestamp: 00:00:40
+================================
+
+Condition: ACCEPTABLE
+
+Analysis:
+- Empty section of pipeline
+- Clean background
+- No issues detected
+
+Recommendation: None
+
+================================
+SUMMARY
+================================
+Total Frames: 10
+Analyzed: 8
+Skipped: 2 (dark conditions)
+
+Overall Assessment: ACCEPTABLE
+Recommended Actions: Schedule valve inspection on next dive

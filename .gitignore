@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Video files (optional - don't commit videos)
+*.mp4
+*.avi
+*.mkv
+*.mov
+
+# Output folders (don't commit processed data)
+ROV_Jobs/
+ROV_Reports/
