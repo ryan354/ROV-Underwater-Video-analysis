@@ -230,20 +230,25 @@ ROV_Reports/
 
 ### Sample AI Analysis
 
-![Sample ROV Frame](examples/job_Video_FHD/frame_00001.jpg)
+![Flagged ROV Frame](examples/job_Video_FHD/frame_00004.jpg)
 
 ```
-Frame: frame_00001.jpg (00:00:00)
+Frame: frame_00004.jpg (Flagged - Important)
 ================================
-Condition: ACCEPTABLE
+Condition: NEEDS ATTENTION
 
 Analysis:
-- Clear underwater visibility (8-10m)
-- Metal pipeline structure visible
-- No corrosion or damage detected
-- Light marine growth (~15% coverage)
+- Underwater pipeline section visible
+- Moderate turbidity - reduced visibility (~4-5m)
+- Metal support structure with visible marine growth
+- Minor corrosion spot detected on pipe joint (center-right)
+- Bolt/weld inspection point - appears intact
+- No visible cracks or structural damage
 
-Recommendation: Continue standard monitoring
+Recommendation: 
+- Monitor corrosion spot on next inspection
+- Consider cleaning if marine growth increases
+- Structure appears functional
 ```
 
 ---
@@ -281,9 +286,9 @@ MIT License - see [LICENSE](LICENSE)
 
 ## 👤 Author
 
-- Your Name
-- GitHub: [yourusername](https://github.com/yourusername)
-- Email: you@example.com
+- ryaan
+- GitHub: [ryan354](https://github.com/ryan354)
+- Email: ryaan354@gmail.com
 
 ---
 
