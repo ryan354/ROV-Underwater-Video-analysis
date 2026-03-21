@@ -236,29 +236,29 @@ ROV_Reports/
 <p align="center">
   <img src="examples/job_Video_FHD/frame_00010.jpg" style="width:100%; max-width:800px; height:auto;">
   <br>
-  <em>Detected: Sea pen & brittle stars</em>
+  <em>Detected: Sea pen </em>
 </p>
 
 ---
 
-#### 📍 Frame Information
+## 📍 Frame Information
 - **Frame ID:** `frame_00009.jpg` *(Flagged Frame)*
 - **Condition:** ✅ GOOD
 
 ---
 
-#### 🔎 Detected Objects
+## 🔎 Detected Objects
 - Sea pen  
 - Brittle star  
 
 ---
 
-#### 🧠 Detailed Analysis
+## 🧠 Detailed Analysis
 A large, creamy-colored sea pen stalk is prominently featured, covered in numerous small white polyps resembling tiny starbursts. Several dark, slender brittle stars are visible on the sandy seabed and along the edges of the frame, with their arms extended.
 
 ---
 
-#### 🌊 Environmental Conditions
+## 🌊 Environmental Conditions
 - **Seabed:** Sandy with shell fragments and sparse red algae  
 - **Depth (Estimated):** 5–10 m  
 - **Water:** Good light penetration and visibility  
@@ -266,14 +266,14 @@ A large, creamy-colored sea pen stalk is prominently featured, covered in numero
 
 ---
 
-#### ⚠️ Assessment
+## ⚠️ Assessment
 - **Urgency:** Low  
 - **Remarks:** Observation of typical benthic marine life. No immediate concerns or targets identified.
 
 ---
 
-#### 🧾 Summary
-A large sea pen with numerous polyps, surrounded by brittle stars on a sandy seabed.
+## 🧾 Summary
+A large sea pen with numerous polyps, surrounded by brittle stars on a sandy seabed
 
 
 ## 🔧 Troubleshooting
