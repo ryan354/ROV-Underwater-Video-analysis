@@ -230,6 +230,8 @@ ROV_Reports/
 
 ### Sample AI Analysis
 
+![Sample ROV Frame](examples/frames/frame_00001.jpg)
+
 ```
 Frame: frame_00001.jpg (00:00:00)
 ================================
