@@ -230,7 +230,7 @@ ROV_Reports/
 
 ### Sample AI Analysis
 
-![Flagged ROV Frame](examples/job_Video_FHD/frame_00009.jpg)
+<img src="examples/job_Video_FHD/frame_00009.jpg" alt="Flagged ROV Frame" style="max-width:100%; height:auto;">
 
 ```
 Frame: frame_00009.jpg (Flagged Frame)
