@@ -243,7 +243,7 @@ ROV_Reports/
 **Frame:** `frame_00009.jpg` (Flagged)  
 **Condition:** GOOD  
 
-**Objects:** sea pen, brittle star  
+**Objects:** sea pen  
 
 **Detail:**  
 A large, creamy-colored sea pen stalk is prominently featured, covered in numerous small white polyps resembling tiny starbursts. Several dark, slender brittle stars are visible on the sandy seabed and along the edges of the frame, with their arms extended.
