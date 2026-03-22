@@ -235,7 +235,7 @@ ROV_Reports/
 <p align="center">
   <img src="examples/job_Video_FHD/frame_00010.jpg" style="width:100%; max-width:800px; height:auto;">
   <br>
-  <em>sea pen, brittle star</em>
+  <em>sea pen</em>
 </p>
 
 ---
