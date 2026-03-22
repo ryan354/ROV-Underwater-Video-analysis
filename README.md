@@ -8,6 +8,52 @@ Automated underwater ROV inspection analysis using AI vision models. Detects def
 
 ---
 
+## 📋 About
+
+**ROV (Remotely Operated Vehicle)** inspection is critical for underwater infrastructure—pipelines, offshore platforms, seabed installations need regular monitoring for corrosion, damage, or marine growth.
+
+### Why This Tool?
+
+Traditional ROV inspection involves:
+- Recording hours of underwater video 📹
+- Manual review (slow, expensive, inconsistent) 👀
+- Human fatigue → missed defects ⚠️
+
+This tool **automates** the analysis:
+- AI vision models detect defects automatically
+- Consistent, objective assessment every time
+- PDF reports ready for stakeholders
+- Telegram integration for mobile approval
+
+### Who Is This For?
+
+| User | Use Case |
+|------|----------|
+| **ROV Operators** | Auto-analyze dive footage on the boat |
+| **Inspection Companies** | Scale from 2 inspections/day → 20 |
+| **Engineers** | Get PDF reports for integrity assessment |
+| **Marine Scientists** | Catalog marine life & habitat conditions |
+
+### Key Capabilities
+
+- **Automated Frame Extraction** — OpenCV pulls keyframes from video (motion/edge/feature detection)
+- **AI-Powered Analysis** — Gemini vision models analyze each frame for defects, marine life, environment
+- **PDF Report Generation** — Professional inspection reports with images, timestamps, assessments
+- **Telegram Integration** — Get notifications + approve reports directly from your phone
+- **Folder Watching** — Runs 24/7, auto-detects new videos and processes them
+
+### Technical Stack
+
+| Component | Technology |
+|-----------|------------|
+| Video Processing | OpenCV (Python) |
+| AI Vision | Gemini via OpenRouter |
+| PDF Generation | FPDF (fpdf2) |
+| Notifications | Telegram Bot API |
+| Deployment | Windows (scheduled task) / Linux (cron) |
+
+---
+
 ## 📸 Overview
 
 This tool automates ROV (Remotely Operated Vehicle) underwater video inspection:
@@ -283,9 +329,29 @@ Sea pen with surrounding brittle stars on a stable sandy seabed.
 
 ---
 
-## 🤝 Contributing
+## ❓ FAQ
 
-Contributions welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) first.
+### Q: What video formats are supported?
+A: `.mp4`, `.avi`, `.mkv`, `.mov` — any format OpenCV can read.
+
+### Q: How does the AI know what to look for?
+A: The prompt instructs Gemini to identify: structural defects, marine growth, corrosion, anomalies, marine life, and environmental conditions. You can customize the prompt in `rov_analyzer.py`.
+
+### Q: Can I run this on a server without a GUI?
+A: Yes! The tool runs headless. Just configure the folders and API keys, then run via CLI or cron.
+
+### Q: How much does it cost to run?
+A: Roughly $0.002-0.005 per frame analyzed (Gemini Flash Lite). A 10-minute video @ 5 sec intervals = ~120 frames = ~$0.24/job.
+
+### Q: Can I use a different AI model?
+A: Yes! Change `MODEL_ID` in `.env`. Works with any OpenRouter-supported vision model.
+
+### Q: What if the AI misses something?
+A: Use `APPROVAL_TIMEOUT_SEC` in `.env` to enable manual review. Telegram bot waits for your approval before finalizing. Set to 0 to auto-approve.
+
+---
+
+## 🤝 Contributing
 
 ## 📄 License
 
