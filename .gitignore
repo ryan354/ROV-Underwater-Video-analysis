@@ -41,10 +41,14 @@ ROV_Reports/
 config.json
 
 # Build output
+build/rov_app/
 build/dist/
 build/build/
 build/ffmpeg/
 dist/
+
+# Claude Code local settings
+.claude/
 
 # Font files (too large for git)
 rov_app/resources/fonts/*.ttf
