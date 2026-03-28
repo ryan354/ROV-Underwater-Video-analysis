@@ -36,3 +36,15 @@ Thumbs.db
 # Output folders (don't commit processed data)
 ROV_Jobs/
 ROV_Reports/
+
+# App config (user-specific)
+config.json
+
+# Build output
+build/dist/
+build/build/
+build/ffmpeg/
+dist/
+
+# Font files (too large for git)
+rov_app/resources/fonts/*.ttf

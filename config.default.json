@@ -1,0 +1,35 @@
+{
+  "folders": {
+    "output_folder": "",
+    "reports_folder": ""
+  },
+  "ai": {
+    "provider": "openrouter",
+    "api_key": "",
+    "model_id": "google/gemini-2.5-flash-lite",
+    "max_tokens": 700,
+    "verification_mode": false,
+    "verification_max_frames": 20,
+    "detection_mode": "precise",
+    "enable_object_detection": false
+  },
+  "opencv": {
+    "motion_threshold": 25,
+    "motion_min_area": 800,
+    "motion_min_contours": 2,
+    "feature_min_keypoints": 80,
+    "edge_density_min": 0.04,
+    "dark_skip_threshold": 20,
+    "turbid_flag_threshold": 180,
+    "colour_anomaly_ratio": 0.02
+  },
+  "extraction": {
+    "frame_every_sec": 5,
+    "supported_exts": [".mp4", ".avi", ".mkv", ".mov"],
+    "dedup_enabled": true,
+    "dedup_threshold": 0.7
+  },
+  "report": {
+    "languages": ["en"]
+  }
+}

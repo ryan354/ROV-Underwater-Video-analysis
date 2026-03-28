@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"from rov_app.core.constants import DEFAULT_OPENCV_THRESHOLDS; print\\(''constants OK''\\)\")",
+      "Bash(python -c \"from rov_app.core.config import ConfigManager; print\\(''config OK''\\)\")",
+      "Bash(python -c \"from rov_app.core.telemetry import load_telemetry; print\\(''telemetry OK''\\)\")",
+      "Bash(python -c \"from rov_app.core.opencv_analyzer import OpenCVAnalyzer; print\\(''opencv OK''\\)\")",
+      "Bash(python -c \"from rov_app.core.deduplicator import FrameDeduplicator; print\\(''dedup OK''\\)\")",
+      "Bash(where python:*)",
+      "Bash(python3 -c \":*)",
+      "Read(//c/Users/ryaan/anaconda3/envs/**)",
+      "Read(//c/Users/ryaan/anaconda3/**)",
+      "Bash(where python.exe)",
+      "Bash(/c/Users/ryaan/anaconda3/python.exe -c \":*)",
+      "Bash(/c/Users/ryaan/anaconda3/envs/FormulatrixTest/python.exe -c \":*)",
+      "Bash(curl -L -o rov_app/resources/fonts/NanumGothic.ttf \"https://github.com/google/fonts/raw/main/ofl/nanumgothic/NanumGothic-Regular.ttf\")",
+      "Bash(curl -L -o \"C:/Users/ryaan/Downloads/ffmpeg-release-essentials.zip\" \"https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip\" --progress-bar)",
+      "Bash(C:/Users/ryaan/anaconda3/envs/FormulatrixTest/python.exe -c \":*)"
+    ]
+  }
+}
