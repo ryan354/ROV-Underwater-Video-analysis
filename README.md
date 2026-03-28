@@ -288,18 +288,6 @@ Press **F5** to launch with debugger. Set breakpoints by clicking left of line n
 | Change default config values | `rov_app/core/constants.py` |
 | Add new AI models to dropdown | `rov_app/ui/settings_dialog.py` → `PROVIDER_MODELS` dict |
 
-### Useful VS Code Shortcuts
-
-| Shortcut | Action |
-|----------|--------|
-| `Ctrl+P` | Open file by name (e.g. type `prompt.py`) |
-| `Ctrl+Shift+F` | Search across all files |
-| `F12` | Go to definition |
-| `Shift+F12` | Find all references |
-| `Ctrl+\`` | Open terminal |
-| `F5` | Run with debugger |
-| `Ctrl+F5` | Run without debugger |
-| `Ctrl+Shift+P` → "Python: Select Interpreter" | Switch conda env |
 
 ### Common Development Tasks
 
