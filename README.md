@@ -216,14 +216,14 @@ Install these from the Extensions panel (`Ctrl+Shift+X`):
 
 ```bash
 # Open project in VS Code
-code "D:\Ryan data\ROV-Underwater-Video-analysis"
+code path/to/ROV-Underwater-Video-analysis
 ```
 
 Create `.vscode/settings.json` in the project root:
 
 ```json
 {
-  "python.defaultInterpreterPath": "C:/Users/ryaan/.conda/envs/FormulatrixTest/python.exe",
+  "python.defaultInterpreterPath": "python",
   "python.analysis.typeCheckingMode": "basic",
   "editor.formatOnSave": false,
   "files.exclude": {
@@ -234,8 +234,8 @@ Create `.vscode/settings.json` in the project root:
 }
 ```
 
-> **Note:** Replace the interpreter path with your actual conda env path.
-> Find it with: `conda activate FormulatrixTest && where python`
+> **Note:** Replace `python.defaultInterpreterPath` with your actual Python/conda env path.
+> Find it with: `where python` (Windows) or `which python` (Linux/Mac)
 
 ### Launch Configuration
 
@@ -306,7 +306,6 @@ Press **F5** to launch with debugger. Set breakpoints by clicking left of line n
 **Run the app:**
 ```bash
 # In VS Code terminal (Ctrl+`)
-conda activate FormulatrixTest
 python main.py
 ```
 
@@ -402,7 +401,6 @@ Both work. Setup.exe is more professional; ZIP is quicker to produce.
 
 #### 1. PyInstaller
 ```bat
-conda activate FormulatrixTest
 pip install pyinstaller
 ```
 
@@ -434,8 +432,7 @@ The app needs ffmpeg to extract video frames. Pick one option:
 
 **Step 1 — Open terminal in project root**
 ```bat
-cd "D:\Ryan data\ROV-Underwater-Video-analysis"
-conda activate FormulatrixTest
+cd path\to\ROV-Underwater-Video-analysis
 ```
 
 **Step 2 — Run the build script**
@@ -498,7 +495,7 @@ Share the ZIP → target PC unzips and runs `ROV_Analyzer.exe` directly. No shor
 
 **`ERROR: script '...\main.py' not found`**
 - Run `build\build.bat` from the **project root**, not from inside `build\`
-- Or: `cd "D:\Ryan data\ROV-Underwater-Video-analysis"` first
+- Run `build\build.bat` from the project root directory
 
 **`PyInstaller not found`**
 ```bat
