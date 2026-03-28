@@ -52,3 +52,4 @@ dist/
 
 # Font files (too large for git)
 rov_app/resources/fonts/*.ttf
+build/innosetup-6.7.1.exe
